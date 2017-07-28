@@ -10,6 +10,7 @@ sudo apt-get -y install oracle-java8-installer
 wget https://nexus.opendaylight.org/content/repositories/public/org/opendaylight/integration/distribution-karaf/0.5.4-Boron-SR4/distribution-karaf-0.5.4-Boron-SR4.tar.gz
 tar -xvf distribution-karaf-0.5.4-Boron-SR4.tar.gz
 sudo chown -R vagrant:vagrant distribution-karaf-0.5.4-Boron-SR4
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 # Steps to start Karaf shell
 # Bewlo command requires manual intervention
